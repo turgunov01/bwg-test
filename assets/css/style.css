@@ -968,46 +968,46 @@ section {
 
 .mySwiper .sec__about {
     transform: translateX(-10rem);
-    transition-delay: 400ms;
+    transition-delay: 1000ms;
     opacity: 0;
 }
 
 .mySwiper .sec__card {
     transform: translateY(5rem);
-    transition-delay: 600ms;
+    transition-delay: 1200ms;
     opacity: 0;
 }
 
 .mySwiper .sec__card:nth-of-type(2) {
-    transition-delay: 800ms;
+    transition-delay: 1400ms;
 }
 
 .mySwiper .sec__card:nth-of-type(3) {
-    transition-delay: 1s;
+    transition-delay: 1.6s;
 }
 
 .mySwiper .person__card {
     transform: translateY(5rem);
-    transition-delay: 600ms;
+    transition-delay: 1s;
     opacity: 0;
 }
 
 .mySwiper .person__card:nth-of-type(2) {
-    transition-delay: 800ms;
+    transition-delay: 1.2s;
 }
 
 .mySwiper .person__card:nth-of-type(3) {
-    transition-delay: 1s;
+    transition-delay: 1.4s;
 }
 
 .mySwiper .person__spons {
     transform: translateY(30rem);
-    transition-delay: 1s;
+    transition-delay: 1.2s;
 }
 
 .mySwiper .thr__title {
     transform: translateX(-10rem);
-    transition-delay: 500ms;
+    transition-delay: 1500ms;
     opacity: 0;
 }
 
@@ -1020,17 +1020,17 @@ section {
     transform: translateX(10rem);
     transform: scale(0);
     opacity: 0;
-    transition-delay: 400ms;
+    transition-delay: 1400ms;
 }
 
 .mySwiper .ftr__name {
     transform: translateX(-10rem);
-    transition-delay: 400ms;
+    transition-delay: 1400ms;
 }
 
 .mySwiper .fvt__title {
     transform: translateY(-10rem);
-    transition-delay: 400ms;
+    transition-delay: 1400ms;
 }
 
 .mySwiper .fvt__about {
@@ -1039,7 +1039,7 @@ section {
 
 .mySwiper .thrt__title {
     transform: translateY(-10rem);
-    transition-delay: 400ms;
+    transition-delay: 1400ms;
 }
 
 .mySwiper .thrt__about {
@@ -1052,22 +1052,22 @@ section {
 
 .mySwiper .svn__txt {
     transform: translate(-10rem);
-    transition-delay: 400ms;
+    transition-delay: 1400ms;
     opacity: 0;
 }
 
 .mySwiper .plat__card {
     transform: translateY(5rem);
     opacity: 0;
-    transition-delay: 600ms;
+    transition-delay: 1200ms;
 }
 
 .mySwiper .plat__card:nth-of-type(2) {
-    transition-delay: 800ms;
+    transition-delay: 1300ms;
 }
 
 .mySwiper .plat__card:nth-of-type(3) {
-    transition-delay: 1s;
+    transition-delay: 1.4s;
 }
 
 .mySwiper .eig__title {
@@ -1077,7 +1077,7 @@ section {
 .mySwiper .eig__spons {
     transform: translateY(10rem);
     opacity: 0;
-    transition-delay: 1s;
+    transition-delay: 1.1s;
 }
 
 .tn__button {
