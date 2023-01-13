@@ -218,7 +218,7 @@ section {
     mix-blend-mode: screen;
 }
 
-.thr::after {
+/* .thr::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -227,7 +227,7 @@ section {
     top: 0;
     left: 0;
     z-index: -1;
-}
+} */
 
 .thr__image {
     width: 100%;
@@ -291,7 +291,7 @@ section {
     font-weight: 400;
     font-family: 'roboto-flex';
     width: 100%;
-    max-width: 90%;
+    max-width: 75%;
     margin: 0 auto;
     text-transform: uppercase;
 }
@@ -313,7 +313,7 @@ section {
     row-gap: calc(100vh / 12);
 }
 
-.fvt::after {
+/* .fvt::after {
     content: '';
     position: absolute;
     left: 0;
@@ -322,7 +322,7 @@ section {
     height: 100%;
     z-index: -1;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-}
+} */
 
 .fvt__image {
     position: absolute;
@@ -389,7 +389,7 @@ section {
     position: relative;
 }
 
-.sxt::after {
+/* .sxt::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -398,7 +398,7 @@ section {
     height: 40%;
     z-index: -1;
     background: linear-gradient(0, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 58.15%, rgba(0, 0, 0, 0) 87.87%);
-}
+} */
 
 .sxt::before {
     content: '';
@@ -461,7 +461,7 @@ section {
     row-gap: 6rem;
 }
 
-.svn::after {
+/* .svn::after {
     content: '';
     position: absolute;
     left: 0;
@@ -470,7 +470,7 @@ section {
     height: 100%;
     z-index: -1;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 101.44%);
-}
+} */
 
 
 .svn::before {
@@ -554,7 +554,7 @@ section {
     padding: 10rem;
 }
 
-.eig::after {
+/* .eig::after {
     content: '';
     position: absolute;
     left: 0;
@@ -563,7 +563,7 @@ section {
     height: 100%;
     z-index: -1;
     background: linear-gradient(45deg, #000000 0%, rgba(0, 0, 0, 0.09) 100%);
-}
+} */
 
 .eig__image {
     position: absolute;
@@ -716,7 +716,7 @@ section {
     height: 100%;
 }
 
-.elv::after {
+/* .elv::after {
     content: '';
     position: absolute;
     left: 0;
@@ -725,7 +725,7 @@ section {
     width: 100%;
     height: 100%;
     background: linear-gradient(0, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-}
+} */
 
 .elv__image {
     width: 100%;
@@ -776,7 +776,7 @@ section {
     row-gap: 6rem;
 }
 
-.thrt::after {
+/* .thrt::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -786,7 +786,7 @@ section {
     left: 0;
     top: 0;
     z-index: -1;
-}
+} */
 
 .thrt__title {
     font-size: 15rem;
@@ -1211,3 +1211,5 @@ section {
 .lang__icon.active {
     opacity: 1 !important;
 }
+
+
