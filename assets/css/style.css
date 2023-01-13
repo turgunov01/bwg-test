@@ -985,7 +985,7 @@ section {
 }
 
 .mySwiper .person__spons {
-    transform: translateY(30rem);
+    transform: translateX(30rem);
     transition-delay: 1.2s;
 }
 
