@@ -389,7 +389,7 @@ section {
     position: relative;
 }
 
-/* .sxt::after {
+.sxt::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -398,7 +398,7 @@ section {
     height: 40%;
     z-index: -1;
     background: linear-gradient(0, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 58.15%, rgba(0, 0, 0, 0) 87.87%);
-} */
+}
 
 .sxt::before {
     content: '';
@@ -1214,8 +1214,7 @@ section {
 
 
 
-
-@media(max-width: 1440px) {
+@media(max-width: 1475px) {
     .sec__about {
         font-size: 4rem;
         line-height: 6rem;
@@ -1225,6 +1224,12 @@ section {
     .sec__card-txt {
         font-size: 2rem;
         line-height: 3rem;
+    }
+
+    .sxt__title {
+        font-size: 18rem;
+        line-height: 18rem;
+        top: 10rem;
     }
 
     .sec__card-txt br {
@@ -1252,6 +1257,11 @@ section {
     .svn__txt {
         font-size: 2rem;
         line-height: 3rem;
+    }
+
+    .sxt__about {
+        font-size: 3rem;
+        line-height: 5rem;
     }
 
     .eig {
