@@ -218,7 +218,7 @@ section {
     mix-blend-mode: screen;
 }
 
-/* .thr::after {
+.thr::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -227,7 +227,7 @@ section {
     top: 0;
     left: 0;
     z-index: -1;
-} */
+}
 
 .thr__image {
     width: 100%;
@@ -261,7 +261,7 @@ section {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    row-gap: calc(100vh / 10);
+    row-gap: 4rem;
 }
 
 .ftr__video {
@@ -716,7 +716,7 @@ section {
     height: 100%;
 }
 
-/* .elv::after {
+.elv::after {
     content: '';
     position: absolute;
     left: 0;
@@ -725,7 +725,7 @@ section {
     width: 100%;
     height: 100%;
     background: linear-gradient(0, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-} */
+}
 
 .elv__image {
     width: 100%;
@@ -773,10 +773,10 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    row-gap: 6rem;
+    row-gap: 4rem;
 }
 
-/* .thrt::after {
+.thrt::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -786,7 +786,7 @@ section {
     left: 0;
     top: 0;
     z-index: -1;
-} */
+}
 
 .thrt__title {
     font-size: 15rem;
@@ -978,26 +978,10 @@ section {
     opacity: 0;
 }
 
-.mySwiper .sec__card:nth-of-type(2) {
-    transition-delay: 1400ms;
-}
-
-.mySwiper .sec__card:nth-of-type(3) {
-    transition-delay: 1.6s;
-}
-
 .mySwiper .person__card {
     transform: translateY(5rem);
     transition-delay: 1s;
     opacity: 0;
-}
-
-.mySwiper .person__card:nth-of-type(2) {
-    transition-delay: 1.2s;
-}
-
-.mySwiper .person__card:nth-of-type(3) {
-    transition-delay: 1.4s;
 }
 
 .mySwiper .person__spons {
