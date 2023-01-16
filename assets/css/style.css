@@ -218,7 +218,7 @@ section {
     mix-blend-mode: screen;
 }
 
-.thr::after {
+.thr::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -395,7 +395,7 @@ section {
     width: 100%;
     left: 0;
     bottom: 0;
-    height: 40%;
+    height: 50%;
     z-index: -1;
     background: linear-gradient(0, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 58.15%, rgba(0, 0, 0, 0) 87.87%);
 }
@@ -406,7 +406,7 @@ section {
     width: 100%;
     left: 0;
     top: 0;
-    height: 40%;
+    height: 50%;
     z-index: -2;
     opacity: 1;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 58.15%, rgba(0, 0, 0, 0) 87.87%);
@@ -930,7 +930,7 @@ section {
 
 .mySwiper section * {
     opacity: 0;
-    transition: 1s;
+    transition: all 1s;
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -952,7 +952,7 @@ section {
 }
 
 .mySwiper * {
-    transition: .3s;
+    transition: all .3s;
 }
 
 .mySwiper .swiper-slide-active section * {
@@ -1078,11 +1078,11 @@ section {
 /* Must be checked */
 
 .mySwiper .swiper-slide-prev {
-    transition: .3s !important;
+    transition: all .3s !important;
 }
 
 .mySwiper .swiper-slide-active {
-    transition: .3s !important;
+    transition: all .3s !important;
 }
 
 .swiper__slide-transition {
@@ -1093,13 +1093,13 @@ section {
 }
 
 .mySwiper2 * {
-    transition: 500ms !important;
-    -webkit-transition: 500ms !important;
+    transition: all 500ms !important;
+    -webkit-transition: all 500ms !important;
 }
 
 .mySwiper2 .swiper-wrapper {
-    transition: 500ms !important;
-    -webkit-transition: 500ms !important;
+    transition: all 500ms !important;
+    -webkit-transition: all 500ms !important;
 }
 
 .mySwiper3 * {
@@ -1114,8 +1114,10 @@ section {
 
 .mySwiper2,
 .mySwiper3 {
-    transition: 500ms !important;
-    -webkit-transition: 500ms !important;
+    transition: all 500ms !important;
+    -webkit-transition: all 500ms !important;
+    -o-transition: all 500ms !important;
+    -moz-transition: all 500ms !important;
 }
 
 
@@ -1287,13 +1289,13 @@ section {
 
 /* Object cover mySwiper3 */
 
-.mySwiper3 .swiper-slide > div {
+.mySwiper3 .swiper-slide>div {
     width: 100%;
     object-fit: cover;
     overflow: visible;
 }
 
-.mySwiper .swiper-slide > div > img {
+.mySwiper .swiper-slide>div>img {
     width: 100%;
     height: 100%;
 }

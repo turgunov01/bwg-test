@@ -9,11 +9,8 @@ var swiper = new Swiper(".mySwiper", {
         sensitivity: 1,
         releaseOnEdges: true,
     },
-    speed: 1500, // More speed required for full page scroll in any device
+    speed: 2000, // More speed required for full page scroll in any device
     keyboard: true,
-    transition: 0,
-    duration: 0,
-    preventInteractionOnTransition: true,
     simulateTouch: true,
 });
 
